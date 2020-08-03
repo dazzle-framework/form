@@ -7,17 +7,17 @@
     "license": "GPL-3.0-or-later",
     "require": {
         "php": "^7.3.0",
-        "dazzlesoftware/language": "^1.0",
-        "dazzlesoftware/string": "^1.0",
-        "dazzlesoftware/uri": "^1.0",
-        "dazzlesoftware/filter": "^1.0",
-        "dazzlesoftware/filesystem": "^1.0",
-        "dazzlesoftware/registry": "^1.0",
-        "dazzlesoftware/utilities": "^1.0"
+        "dazzlesoftware/language": "^1.0|^2.0",
+        "dazzlesoftware/string": "^1.0|^2.0",
+        "dazzlesoftware/uri": "^1.0|^2.0",
+        "dazzlesoftware/filter": "^1.0|^2.0",
+        "dazzlesoftware/filesystem": "^1.0|^2.0",
+        "dazzlesoftware/registry": "^1.0|^2.0",
+        "dazzlesoftware/utilities": "^1.0|^2.0"
     },
     "require-dev": {
-        "dazzlesoftware/database": "^1.0",
-        "dazzlesoftware/test": "^1.0",
+        "dazzlesoftware/database": "^1.0|^2.0",
+        "dazzlesoftware/test": "^1.0|^2.0",
         "phpunit/phpunit": "^9.0",
         "phpunit/dbunit": "~1.3",
         "squizlabs/php_codesniffer": "1.*"
@@ -35,10 +35,11 @@
             "Dazzle\\Form\\UnitTests\\": "Tests"
         }
     },
+    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-master": "2.x-dev"
+            "dev-master": "1.x-dev",
+            "dev-develop": "2.x-dev"
         }
-    },
-    "prefer-stable": true
+    }
 }
